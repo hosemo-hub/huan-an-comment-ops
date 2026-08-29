@@ -1,0 +1,4 @@
+interface:
+  display_name: "huan-an-comment-ops"
+  short_description: "跨平台评论运营、讨论引导、社区风险控制、效果复盘与决策支持"
+  default_prompt: "使用 $huan-an-comment-ops 分诊这些评论或线程。先区分证据状态与风险，再给出最小充分动作、公开回复草案和停止条件；不要把建议动作写成已执行事实。"
