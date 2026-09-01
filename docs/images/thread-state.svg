@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="560" viewBox="0 0 1440 560" role="img" aria-labelledby="title desc">
+  <title id="title">评论线程状态机</title>
+  <desc id="desc">线程可从萌芽进入扩展、争论、极化和紧急风险，也可从多个状态收口到耗尽；偏航应停止奖励。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2148b8"/></marker>
+  </defs>
+  <rect width="1440" height="560" fill="#faf7ef"/>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <text x="72" y="72" font-size="32" font-weight="700" fill="#1f1f1f">线程不是一直向前，风险可以让它直接跳级</text>
+    <g transform="translate(70 148)" text-anchor="middle">
+      <g fill="#2148b8">
+        <rect x="0" y="0" width="170" height="82" rx="41"/>
+        <rect x="235" y="0" width="170" height="82" rx="41"/>
+        <rect x="470" y="0" width="170" height="82" rx="41"/>
+      </g>
+      <rect x="705" y="0" width="170" height="82" rx="41" fill="#e96b3a"/>
+      <rect x="940" y="0" width="210" height="82" rx="41" fill="#b83b31"/>
+      <g fill="#fff" font-size="21" font-weight="700">
+        <text x="85" y="50">seed 萌芽</text>
+        <text x="320" y="50">expanding 扩展</text>
+        <text x="555" y="50">contending 争论</text>
+        <text x="790" y="50">polarizing 极化</text>
+        <text x="1045" y="50">acute-risk 紧急风险</text>
+      </g>
+      <g stroke="#2148b8" stroke-width="5" marker-end="url(#arrow)">
+        <path d="M173 41H225"/>
+        <path d="M408 41H460"/>
+        <path d="M643 41H695"/>
+        <path d="M878 41H930"/>
+      </g>
+      <rect x="235" y="220" width="190" height="82" rx="41" fill="#e96b3a"/>
+      <text x="330" y="270" fill="#fff" font-size="21" font-weight="700">derailing 偏航</text>
+      <rect x="650" y="220" width="210" height="82" rx="41" fill="#74a52f"/>
+      <text x="755" y="270" fill="#fff" font-size="21" font-weight="700">exhausted 收口</text>
+      <g stroke="#2148b8" stroke-width="5" fill="none" marker-end="url(#arrow)">
+        <path d="M85 88C85 180 650 130 700 213"/>
+        <path d="M320 88C320 150 650 150 710 213"/>
+        <path d="M555 88C555 150 700 155 735 213"/>
+        <path d="M790 88V210"/>
+        <path d="M430 260H640"/>
+        <path d="M85 88C110 330 980 335 1030 91" stroke="#b83b31"/>
+      </g>
+      <text x="575" y="368" font-size="18" fill="#555">继续的条件：仍有新事实或条件 · 旁观者能获得价值 · 风险可控</text>
+    </g>
+  </g>
+</svg>

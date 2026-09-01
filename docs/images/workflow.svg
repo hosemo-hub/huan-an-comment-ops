@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+  <title id="title">huan-an-comment-ops 工作流</title>
+  <desc id="desc">从证据状态、安全门、唯一目标、线程分诊、最小动作到停止条件的六步流程。</desc>
+  <rect width="1440" height="420" fill="#faf7ef"/>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <text x="72" y="72" font-size="32" font-weight="700" fill="#1f1f1f">判断先于回复</text>
+    <text x="72" y="108" font-size="18" fill="#555">Evidence → Safety → Objective → Thread → Action → Stop</text>
+    <g transform="translate(70 155)">
+      <path d="M180 80H230M400 80H450M620 80H670M840 80H890M1060 80H1110" stroke="#2148b8" stroke-width="5" stroke-linecap="round"/>
+      <g>
+        <rect width="180" height="160" rx="16" fill="#2148b8"/>
+        <text x="22" y="48" font-size="16" fill="#fff" opacity=".8">01</text>
+        <text x="22" y="82" font-size="23" font-weight="700" fill="#fff">证据状态</text>
+        <text x="22" y="116" font-size="16" fill="#fff">发生了什么？</text>
+        <text x="22" y="140" font-size="16" fill="#fff">什么仍未知？</text>
+      </g>
+      <g transform="translate(220)">
+        <rect width="180" height="160" rx="16" fill="#e96b3a"/>
+        <text x="22" y="48" font-size="16" fill="#fff" opacity=".8">02</text>
+        <text x="22" y="82" font-size="23" font-weight="700" fill="#fff">安全门</text>
+        <text x="22" y="116" font-size="16" fill="#fff">是否应停止取材</text>
+        <text x="22" y="140" font-size="16" fill="#fff">并升级人工？</text>
+      </g>
+      <g transform="translate(440)">
+        <rect width="180" height="160" rx="16" fill="#1f1f1f"/>
+        <text x="22" y="48" font-size="16" fill="#fff" opacity=".8">03</text>
+        <text x="22" y="82" font-size="23" font-weight="700" fill="#fff">唯一目标</text>
+        <text x="22" y="116" font-size="16" fill="#fff">这一轮只推进</text>
+        <text x="22" y="140" font-size="16" fill="#fff">一个目标</text>
+      </g>
+      <g transform="translate(660)">
+        <rect width="180" height="160" rx="16" fill="#2148b8"/>
+        <text x="22" y="48" font-size="16" fill="#fff" opacity=".8">04</text>
+        <text x="22" y="82" font-size="23" font-weight="700" fill="#fff">线程分诊</text>
+        <text x="22" y="116" font-size="16" fill="#fff">看父子关系</text>
+        <text x="22" y="140" font-size="16" fill="#fff">不只看一句话</text>
+      </g>
+      <g transform="translate(880)">
+        <rect width="180" height="160" rx="16" fill="#74a52f"/>
+        <text x="22" y="48" font-size="16" fill="#fff" opacity=".8">05</text>
+        <text x="22" y="82" font-size="23" font-weight="700" fill="#fff">最小动作</text>
+        <text x="22" y="116" font-size="16" fill="#fff">足够推进即可</text>
+        <text x="22" y="140" font-size="16" fill="#fff">回复不是默认</text>
+      </g>
+      <g transform="translate(1100)">
+        <rect width="180" height="160" rx="16" fill="#e96b3a"/>
+        <text x="22" y="48" font-size="16" fill="#fff" opacity=".8">06</text>
+        <text x="22" y="82" font-size="23" font-weight="700" fill="#fff">停止条件</text>
+        <text x="22" y="116" font-size="16" fill="#fff">何时收口？</text>
+        <text x="22" y="140" font-size="16" fill="#fff">何时不再回？</text>
+      </g>
+    </g>
+  </g>
+</svg>

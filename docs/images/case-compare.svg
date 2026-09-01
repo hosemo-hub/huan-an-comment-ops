@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="640" viewBox="0 0 1440 640" role="img" aria-labelledby="title desc">
+  <title id="title">万能回复与线程判断的差异</title>
+  <desc id="desc">左侧从一条评论直接生成回复，右侧先判断证据、贡献、线程、目标、动作与停止条件。</desc>
+  <rect width="1440" height="640" fill="#faf7ef"/>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif">
+    <text x="70" y="70" font-size="32" font-weight="700" fill="#1f1f1f">同一条评论，两种处理顺序</text>
+    <g transform="translate(70 118)">
+      <rect width="610" height="450" rx="22" fill="#fff" stroke="#e96b3a" stroke-width="4"/>
+      <text x="34" y="58" font-size="24" font-weight="700" fill="#e96b3a">万能回复器</text>
+      <rect x="60" y="100" width="490" height="78" rx="12" fill="#f7e7df"/>
+      <text x="88" y="136" font-size="20" fill="#1f1f1f">收到一条评论</text>
+      <text x="88" y="161" font-size="16" fill="#555">忽略父子关系与作者已做动作</text>
+      <path d="M305 190V245" stroke="#e96b3a" stroke-width="5"/>
+      <path d="M294 234L305 247L316 234" fill="none" stroke="#e96b3a" stroke-width="5"/>
+      <rect x="60" y="258" width="490" height="78" rx="12" fill="#f7e7df"/>
+      <text x="88" y="294" font-size="20" fill="#1f1f1f">立刻生成一句好听的话</text>
+      <text x="88" y="319" font-size="16" fill="#555">默认动作 = 回复</text>
+      <path d="M305 348V380" stroke="#e96b3a" stroke-width="5"/>
+      <circle cx="305" cy="405" r="14" fill="#e96b3a"/>
+      <text x="334" y="412" font-size="18" fill="#555">可能把偏航、争论或伤害继续放大</text>
+    </g>
+    <g transform="translate(760 118)">
+      <rect width="610" height="450" rx="22" fill="#fff" stroke="#2148b8" stroke-width="4"/>
+      <text x="34" y="58" font-size="24" font-weight="700" fill="#2148b8">线程优先判断</text>
+      <g font-size="17" fill="#1f1f1f">
+        <rect x="40" y="98" width="245" height="68" rx="12" fill="#e8edf9"/>
+        <text x="62" y="139">证据：真的发生了吗？</text>
+        <rect x="325" y="98" width="245" height="68" rx="12" fill="#e8edf9"/>
+        <text x="347" y="139">安全：是否先止损？</text>
+        <rect x="40" y="190" width="245" height="68" rx="12" fill="#e8edf9"/>
+        <text x="62" y="231">线程：正在发生什么？</text>
+        <rect x="325" y="190" width="245" height="68" rx="12" fill="#e8edf9"/>
+        <text x="347" y="231">目标：这一轮要推进什么？</text>
+      </g>
+      <path d="M305 275V317" stroke="#2148b8" stroke-width="5"/>
+      <path d="M294 306L305 319L316 306" fill="none" stroke="#2148b8" stroke-width="5"/>
+      <rect x="40" y="330" width="530" height="68" rx="12" fill="#e7f0d7"/>
+      <text x="62" y="371" font-size="19" fill="#1f1f1f">选择最小动作，并说明何时停止</text>
+      <text x="138" y="431" font-size="18" fill="#555">结果也可能是：点赞、观察、收口或不回复</text>
+    </g>
+  </g>
+</svg>
