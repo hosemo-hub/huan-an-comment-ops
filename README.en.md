@@ -2,9 +2,11 @@
 
 [中文](./README.md) · **English**
 
-# huan-an-comment-ops
+# Comment Compass · 评论罗盘
 
 **Understand what a comment thread is becoming before deciding whether to reply, how to act, and when to stop.**
+
+Public nickname: **Comment Compass / 评论罗盘** · technical install name: `huan-an-comment-ops` · memory line: **judge first, reply second.**
 
 [![Trial](https://img.shields.io/badge/STATUS-0.1.0--trial-E6603D?style=flat-square&labelColor=1E2422)](./docs/evidence-base.md)
 [![Agent Skill](https://img.shields.io/badge/AGENT-SKILL.md-4164A8?style=flat-square&labelColor=1E2422)](./skills/huan-an-comment-ops/SKILL.md)
@@ -15,7 +17,7 @@
 
 ![Comments are judged first, then routed into continue, observe, or stop](./docs/images/comment-ops-hero-v2.png)
 
-`huan-an-comment-ops` is a comment-operations Agent Skill for creators, brands, and community teams.
+**Comment Compass** (technical install name: `huan-an-comment-ops`) is a comment-operations Agent Skill for creators, brands, and community teams.
 
 Its strongest feature is not prettier wording. It identifies whether a comment is a question, a lived story, a useful counterexample, or a dispute taking over the thread—then chooses the smallest sufficient action and writes a stopping condition.
 
@@ -42,8 +44,6 @@ A reply is only one option. The Skill may recommend `reply / like / observe / cl
 2. **A disagreement starts spreading.** Separate correction, counterexample, and provocation; clarify once when useful, then stop chasing the last word. Especially useful on X, Bilibili, Reddit, and open reply networks.
 3. **A reader shares a concrete experience.** Acknowledge the situation, ask only one question that adds understanding, and turn recurring questions into an FAQ or content lead—with permission and context.
 
-All comments shown in the graphic are original synthetic demonstrations. They are not copied platform comments and were not sent.
-
 ## Same comment, different order
 
 ![Reply-first versus judgment-first handling of the same comment](./docs/images/case-compare-v2.svg)
@@ -52,9 +52,9 @@ All comments shown in the graphic are original synthetic demonstrations. They ar
 
 A generic reply tool may comfort, explain, or argue first. This Skill first marks the comment as `dissent + story`, chooses `clarify` as the single objective, acknowledges the boundary of the original claim, asks at most one condition that could add information, and defines when to stop.
 
-It cannot guarantee satisfaction. It can make every public action reasoned, bounded, and stoppable.
+It cannot guarantee satisfaction. It makes the rationale, boundary, and stopping condition of the public action explicit.
 
-## Thread-first without the spaghetti diagram
+## Thread-first
 
 ![Three clear lanes for valuable growth, escalating disagreement, and overriding risk](./docs/images/thread-state-v2.svg)
 
@@ -97,19 +97,34 @@ Run the universal command in the environment used by Codex CLI or Codex desktop.
 
 ### CodeBuddy / WorkBuddy
 
-For CodeBuddy Code, use `~/.codebuddy/skills/huan-an-comment-ops/` globally or `.codebuddy/skills/huan-an-comment-ops/` per project, then verify with `/skills`. Versions with a visual manager can use **Settings → Skills → Import Skill**. Import the complete folder, including `SKILL.md`, references, scripts, and assets. See the [Tencent Cloud Skills documentation](https://cloud.tencent.com/document/product/1831/137020) and [international CodeBuddy Skills documentation](https://intl.cloud.tencent.com/document/product/1256/77295?lang=en).
+Use the same universal command for domestic CodeBuddy and international CodeBuddy / WorkBuddy:
 
-## Use it in Doubao now
-
-Doubao does not need to natively install the package for the workflow to be useful. Upload a comment screenshot and paste:
-
-```text
-Use the huan-an-comment-ops order: separate observations from inference, then judge the thread.
-A reply is not the default action. Return priority threads, minimum action, reply draft when needed,
-rationale, risk, unknowns, and stopping conditions. Do not pretend to execute platform actions.
+```bash
+npx -y skills add hosemo-hub/huan-an-comment-ops -g --all
 ```
 
-If your Doubao version exposes custom agents, place the full instruction in the agent background/settings. Otherwise, keep using a normal chat. The complete Chinese setup is in [`docs/doubao-quickstart.md`](./docs/doubao-quickstart.md).
+Start a new task, then verify with `/skills` or the Skills panel. Use **Settings → Skills → Import Skill** only when the universal command is unavailable. See the [Tencent Cloud Skills documentation](https://cloud.tencent.com/document/product/1831/137020) and [international CodeBuddy Skills documentation](https://intl.cloud.tencent.com/document/product/1256/77295?lang=en).
+
+## Install it from the Doubao mobile app
+
+This path follows the current mobile “Work task” interface:
+
+1. Open Doubao and start a new chat.
+2. Tap **Quick** at the lower left and switch to **Work task Auto**.
+3. Confirm that **Cloud computer** is online.
+4. Send:
+
+```text
+Install this repository as a callable skill package:
+https://github.com/hosemo-hub/huan-an-comment-ops
+
+When installation finishes, tell me the skill name and ask me for a comment-section screenshot to test.
+```
+
+5. When installation completes, open **Skills** at the bottom of the chat and choose `huan-an-comment-ops`, or say “Use Comment Compass on these comments.”
+6. If the list has not refreshed, start a new **Work task Auto** chat.
+
+The simplest input is **a comment screenshot plus the post URL**. Article links and video scripts also work; if the current model cannot read a platform-hosted video directly, attach the transcript, captions, or key frames. The complete Chinese walkthrough is in [`docs/doubao-quickstart.md`](./docs/doubao-quickstart.md).
 
 ## What it deliberately does not do
 
@@ -138,6 +153,12 @@ Deterministic Python scripts under `scripts/` use the [MIT License](./skills/hua
 I built this Skill because I do not want to hand a public comment section over to one generic “smart reply.” The difficult question is not merely what sounds nice—it is what this public action will amplify.
 
 The most useful feedback is a wrong classification, a suggestion you rejected, or a stopping condition that arrived too early or too late. Submit only public or fully anonymized cases through [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues).
+
+Chinese beta group:
+
+![Comment Compass Chinese beta group QR poster](./docs/images/comment-compass-wechat-group-v1.png)
+
+The current WeChat group code expires on **2026-09-09**. Use [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues) after expiry until a new code is published.
 
 ---
 

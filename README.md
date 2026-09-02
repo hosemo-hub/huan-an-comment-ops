@@ -2,9 +2,11 @@
 
 **中文** · [English](./README.en.md)
 
-# huan-an-comment-ops
+# 评论罗盘 · Comment Compass
 
 **先看懂评论区正在发生什么，再决定回不回、怎么回、什么时候停。**
+
+对外昵称：**评论罗盘** · 技术安装名：`huan-an-comment-ops` · 记忆句：**先判断，再回复。**
 
 [![Trial](https://img.shields.io/badge/STATUS-0.1.0--trial-E6603D?style=flat-square&labelColor=1E2422)](./docs/evidence-base.md)
 [![Agent Skill](https://img.shields.io/badge/AGENT-SKILL.md-4164A8?style=flat-square&labelColor=1E2422)](./skills/huan-an-comment-ops/SKILL.md)
@@ -15,7 +17,7 @@
 
 ![评论进入后被先判断、再分流到继续、观察和停止三种动作](./docs/images/comment-ops-hero-v2.png)
 
-`huan-an-comment-ops` 是一个给创作者、品牌和社区运营者使用的评论运营 Agent Skill。
+**评论罗盘**（技术安装名 `huan-an-comment-ops`）是一个给创作者、品牌和社区运营者使用的评论运营 Agent Skill。
 
 它最强的地方，不是把一句回复润色得更漂亮，而是能在动手前看清：这是一条问题、一段真实经历、一个有效反例，还是正在抢走整个评论区的争论；这条值得回，还是只需点赞、观察、收口或交给人处理。
 
@@ -64,13 +66,13 @@
 
 > 你这个反例很重要。我讲的是怎样降低试一次的成本，不是说做个小作品就一定能解决转型。如果愿意只讲一个条件，三次变化里最影响结果的是什么？不方便展开也没关系。
 
-它不保证对方满意，但能保证这次公开动作有理由、有边界，也能停下来。
+它不保证对方满意。它做的是把这次公开动作的理由、边界和停止条件摆出来。
 
-## 线程优先，不再画“意大利面流程图”
+## 线程优先
 
 ![线程按有价值生长、分歧升温和风险覆盖分成三条清晰通道](./docs/images/thread-state-v2.svg)
 
-内部仍保留完整状态：`seed / expanding / contending / polarizing / derailing / acute-risk / exhausted`。README 不再把七个状态和所有跳转塞进一张图，而是先让人看懂三条通道：
+内部仍保留完整状态：`seed / expanding / contending / polarizing / derailing / acute-risk / exhausted`。对外先用三条通道呈现：
 
 - 有新问题、新事实和新经验：继续生长；
 - 开始站队、重复和争最后一句：澄清一次，然后收口；
@@ -122,39 +124,50 @@ https://github.com/hosemo-hub/huan-an-comment-ops
 
 ### CodeBuddy / WorkBuddy（国内与海外版本）
 
-CodeBuddy Code 的当前官方目录是：
+国内 CodeBuddy、海外 CodeBuddy / WorkBuddy 同样先运行通用安装命令：
 
-- 用户级：`~/.codebuddy/skills/huan-an-comment-ops/`
-- 项目级：`.codebuddy/skills/huan-an-comment-ops/`
-
-把仓库里的目标 Skill 目录整体复制进去，再用 `/skills` 检查是否加载。支持图形界面的版本，可在 **Settings → Skills → Import Skill** 中导入该目录。不同 WorkBuddy 客户端的入口名称可能略有变化，核心是导入包含 `SKILL.md`、`references/`、`scripts/` 和 `assets/` 的完整文件夹。参考 [腾讯云 Skills 文档](https://cloud.tencent.com/document/product/1831/137020) 与 [CodeBuddy 国际版 Skills 文档](https://intl.cloud.tencent.com/document/product/1256/77295?lang=en)。
-
-## 重点：在豆包里直接用
-
-豆包不需要等原生 Skill 安装。现在就能用“对话版”：上传评论截图，粘贴下面这句。
-
-```text
-按 huan-an-comment-ops 的顺序处理：先分事实与推断，再判断线程；
-回复不是默认动作。请给重点线程、最小动作、回复草案、理由、风险和停止条件。
-不要假装已经替我执行平台操作。
+```bash
+npx -y skills add hosemo-hub/huan-an-comment-ops -g --all
 ```
 
-想固定下来，可在豆包“创建智能体”中把完整设定放入背景/设定；没有该入口时继续用普通对话。完整复制版见 [`docs/doubao-quickstart.md`](./docs/doubao-quickstart.md)。豆包官方当前说明支持发送文件、创建和定制智能体，但这里不把对话提示词冒充成原生 Agent Skill 安装。
+安装后新开任务，用 `/skills` 或客户端的 Skills 面板确认 `huan-an-comment-ops` 已加载。只有通用命令不可用时，才需要走 **Settings → Skills → Import Skill** 的手动导入。参考 [腾讯云 Skills 文档](https://cloud.tencent.com/document/product/1831/137020) 与 [CodeBuddy 国际版 Skills 文档](https://intl.cloud.tencent.com/document/product/1256/77295?lang=en)。
+
+## 重点：手机豆包也能装
+
+下面这条路径按当前豆包手机端“工作任务”界面整理，不需要手动复制一堆文件：
+
+1. 打开豆包 App，新建对话；
+2. 点左下角当前显示的“快速”，切换为 **工作任务 Auto**；
+3. 确认底部 **云电脑** 显示在线；
+4. 发送这句话：
+
+```text
+请把这个仓库安装成可调用的技能包：
+https://github.com/hosemo-hub/huan-an-comment-ops
+
+安装完成后告诉我技能名称，并让我用一张评论区截图测试。
+```
+
+5. 安装完成后，当前会话底部会出现 **技能**；点开后选择 `huan-an-comment-ops`，或直接说“使用评论罗盘处理这组评论”；
+6. 如果技能列表还没刷新，新建一个 **工作任务 Auto** 会话再看一次。
+
+手机上装好后，电脑端登录同一豆包账号也能继续使用这台云电脑；还可以在“工作设备”里添加自己的电脑。完整图文步骤见 [`docs/doubao-quickstart.md`](./docs/doubao-quickstart.md)。
 
 ## 最佳输入
 
+最傻瓜的方式只有两样：**评论区截图 + 作品链接**。你也可以附文章链接、短视频文稿或逐字稿；如果当前模型不能直接读取某个平台的视频，就再补文稿、字幕或关键画面。
+
 ```text
 平台：小红书
-原帖：我分享了一次转型试验
+附件：评论区截图.png
+作品链接：https://...
+作品补充：文章、短视频文稿或一句话摘要（能读链接时可省略）
 目标：收集真实反例，不追求评论数量
 允许动作：回复、点赞、观察、人工升级
 作者已做动作：给两条具体经验点过赞，尚未回复
 
-线程 A：
-- 评论 1：你说得轻巧，我试了三次都没用
-  - 回复 1.1：我也是，最大问题是没有稳定时间
-
-请先判断线程，再给最小动作、回复草案和停止条件。
+请使用评论罗盘：先还原截图里的父子评论关系，再给重点线程、最小动作、
+需要时的回复草案、理由和停止条件。
 ```
 
 批量任务可直接使用 [`comment-batch.example.json`](./skills/huan-an-comment-ops/assets/comment-batch.example.json)。需要 Python 3 时，Skill 会调用两个确定性统计脚本；单条分诊通常不需要脚本。
@@ -177,19 +190,19 @@ CodeBuddy Code 的当前官方目录是：
 
 ```text
 huan-an-comment-ops/
-├── docs/
-│   ├── doubao-quickstart.md
-│   ├── evidence-base.md
-│   └── images/
-├── skills/huan-an-comment-ops/
-│   ├── SKILL.md
-│   ├── assets/
-│   ├── evals/
-│   ├── references/
-│   └── scripts/
-├── README.md
-├── README.en.md
-└── LICENSE
+├── docs/                              # 使用说明、证据边界与介绍图片
+│   ├── doubao-quickstart.md           # 豆包手机端安装与使用教程
+│   ├── evidence-base.md               # 已验证、未验证与测试范围
+│   └── images/                        # README 配图与群二维码海报
+├── skills/huan-an-comment-ops/        # 可被 Agent 发现的 Skill 主目录
+│   ├── SKILL.md                       # 能力边界、触发条件与工作流真源
+│   ├── assets/                        # 批量评论输入样例
+│   ├── evals/                         # 匿名化回归测试
+│   ├── references/                    # 平台、线程、实验与安全参考
+│   └── scripts/                       # 确定性统计脚本
+├── README.md                          # 中文产品介绍
+├── README.en.md                       # English introduction
+└── LICENSE                            # 文档与脚本许可
 ```
 
 ## 许可
@@ -204,7 +217,11 @@ Skill 说明、references、assets 与 evals 采用 [CC BY-NC 4.0](./LICENSE)：
 
 最有价值的反馈是：它在哪种评论里判断错了、你为什么没有采用建议、哪条停止条件来得太早或太晚。请在 [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues) 提交已公开或充分脱敏的案例。
 
-微信群二维码会在“焕安聊出路”有效群码确认后放在这里；本仓库不使用过期码、第三方群码或不可核验入口。
+想直接带一条真实评论来试，扫码加入「评论运营 Skill」内测群：
+
+![焕安聊出路评论罗盘内测群二维码海报](./docs/images/comment-compass-wechat-group-v1.png)
+
+当前群码有效期至 **2026-09-09**。失效后请先通过 [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues) 留言，仓库会替换新群码。
 
 ---
 
