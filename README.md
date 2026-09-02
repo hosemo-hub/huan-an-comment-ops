@@ -8,6 +8,8 @@
 
 对外昵称：**评论罗盘** · 技术安装名：`huan-an-comment-ops` · 记忆句：**先判断，再回复。**
 
+**作者：** [焕安 · X @heyHuanAn](https://x.com/heyHuanAn)
+
 [![Trial](https://img.shields.io/badge/STATUS-0.1.0--trial-E6603D?style=flat-square&labelColor=1E2422)](./docs/evidence-base.md)
 [![Agent Skill](https://img.shields.io/badge/AGENT-SKILL.md-4164A8?style=flat-square&labelColor=1E2422)](./skills/huan-an-comment-ops/SKILL.md)
 [![Python](https://img.shields.io/badge/PYTHON-3-7C9B72?style=flat-square&labelColor=1E2422)](./skills/huan-an-comment-ops/scripts)
@@ -242,9 +244,9 @@ Skill 说明、references、assets 与 evals 采用 [CC BY-NC 4.0](./LICENSE)：
 
 扫码加入「评论运营 Skill」内测群：
 
-![焕安聊出路评论罗盘内测群二维码海报](./docs/images/comment-compass-wechat-group-v3.png)
+![焕安聊出路评论罗盘内测群二维码海报](./docs/images/comment-compass-wechat-group-v4-ochre.png)
 
-群码失效了，就到 [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues) 留言；我会不定期更新。
+群码有效期至 **2026-09-09**。失效后请到 [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues) 留言；我会不定期更新。
 
 ---
 

@@ -8,6 +8,8 @@
 
 Public nickname: **Comment Compass / 评论罗盘** · technical install name: `huan-an-comment-ops` · memory line: **judge first, reply second.**
 
+**Created by:** [Huan An (焕安) · @heyHuanAn on X](https://x.com/heyHuanAn)
+
 [![Trial](https://img.shields.io/badge/STATUS-0.1.0--trial-E6603D?style=flat-square&labelColor=1E2422)](./docs/evidence-base.md)
 [![Agent Skill](https://img.shields.io/badge/AGENT-SKILL.md-4164A8?style=flat-square&labelColor=1E2422)](./skills/huan-an-comment-ops/SKILL.md)
 [![Python](https://img.shields.io/badge/PYTHON-3-7C9B72?style=flat-square&labelColor=1E2422)](./skills/huan-an-comment-ops/scripts)
@@ -177,9 +179,9 @@ The most useful feedback is a wrong classification, a suggestion you rejected, o
 
 Chinese beta group:
 
-![Comment Compass Chinese beta group QR poster](./docs/images/comment-compass-wechat-group-v3.png)
+![Comment Compass Chinese beta group QR poster](./docs/images/comment-compass-wechat-group-v4-ochre.png)
 
-If the WeChat group code has expired, leave a note in [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues). I update it from time to time.
+The WeChat group code is valid through **2026-09-09**. After it expires, leave a note in [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues). I update it from time to time.
 
 ---
 
