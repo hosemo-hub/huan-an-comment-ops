@@ -23,6 +23,26 @@ Its strongest feature is not prettier wording. It identifies whether a comment i
 
 In short: **it upgrades “replying to comments” into explainable public judgment.**
 
+## Fastest use
+
+### Minimal — recommended
+
+Attach a comment screenshot, the post URL, an export, or the post script. Then say:
+
+```text
+Process.
+```
+
+The Skill keeps thread classification, safety checks, action selection, and stopping conditions inside the workflow. You see the useful result first instead of learning the internal labels.
+
+### Guided — when you want more control
+
+```text
+Use Comment Compass on these materials.
+My goal is to find questions and counterexamples worth answering.
+Return the judgment, recommended action, reply only when needed, and when to stop.
+```
+
 ## At a glance
 
 ![The four-step workflow from evidence and thread judgment to action and stopping condition](./docs/images/workflow-v2.svg)
@@ -121,8 +141,9 @@ https://github.com/hosemo-hub/huan-an-comment-ops
 When installation finishes, tell me the skill name and ask me for a comment-section screenshot to test.
 ```
 
-5. When installation completes, open **Skills** at the bottom of the chat and choose `huan-an-comment-ops`, or say “Use Comment Compass on these comments.”
-6. If the list has not refreshed, start a new **Work task Auto** chat.
+5. When installation completes, open **Skills** at the bottom of the chat and choose `huan-an-comment-ops`.
+6. Attach the comment screenshot and post URL, then say “Process.”
+7. If the list has not refreshed, start a new **Work task Auto** chat.
 
 The simplest input is **a comment screenshot plus the post URL**. Article links and video scripts also work; if the current model cannot read a platform-hosted video directly, attach the transcript, captions, or key frames. The complete Chinese walkthrough is in [`docs/doubao-quickstart.md`](./docs/doubao-quickstart.md).
 
@@ -156,9 +177,9 @@ The most useful feedback is a wrong classification, a suggestion you rejected, o
 
 Chinese beta group:
 
-![Comment Compass Chinese beta group QR poster](./docs/images/comment-compass-wechat-group-v1.png)
+![Comment Compass Chinese beta group QR poster](./docs/images/comment-compass-wechat-group-v2.png)
 
-The current WeChat group code expires on **2026-09-09**. Use [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues) after expiry until a new code is published.
+If the WeChat group code has expired, leave a note in [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues). I update it from time to time.
 
 ---
 
