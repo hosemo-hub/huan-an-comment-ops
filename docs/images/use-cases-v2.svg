@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1040" viewBox="0 0 1600 1040">
+  <rect width="1600" height="1040" fill="#F4F0E8"/>
+  <style>.h{font:700 42px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#1E2422}.k{font:700 17px ui-monospace,monospace;letter-spacing:2px}.p{font:700 28px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#1E2422}.b{font:400 21px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#333B38}.m{font:700 16px ui-monospace,monospace}.small{font:400 17px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#59615E}.inv{fill:#F4F0E8}</style>
+  <text x="70" y="72" class="k" fill="#E6603D">THREE USE CASES / SIX PLATFORMS</text><text x="70" y="126" class="h">不是“假设它能做什么”，而是你会在这些时候用它</text>
+  <g transform="translate(70 180)">
+    <rect width="1460" height="245" rx="28" fill="#FFFCF7" stroke="#1E2422" stroke-width="3"/>
+    <rect width="300" height="245" rx="28" fill="#4164A8"/><text x="34" y="52" class="m inv">USE CASE 01</text><text x="34" y="102" class="p inv">发布后评论暴增</text><text x="34" y="139" class="small inv">抖音 · 小红书 · 视频号</text><text x="34" y="171" class="small inv">Bilibili</text><path d="M34 207 H234" stroke="#E6603D" stroke-width="10" stroke-linecap="round"/>
+    <g transform="translate(340 34)"><circle cx="22" cy="22" r="22" fill="#E6603D"/><rect x="60" width="470" height="78" rx="18" fill="#F4F0E8"/><text x="84" y="31" class="small">“求链接”“有用吗”“我试过完全不行”</text><text x="84" y="57" class="small">“互关吗”“这不是割韭菜？”……</text><path d="M22 48 V122" stroke="#1E2422" stroke-width="3"/><circle cx="22" cy="142" r="16" fill="#7C9B72"/></g>
+    <g transform="translate(910 34)"><text x="0" y="20" class="m" fill="#E6603D">SKILL OUTPUT</text><rect y="40" width="500" height="150" rx="18" fill="#1E2422"/><text x="28" y="78" class="b inv">先分出：值得回 / 只需赞 / 观察 / 不放大</text><text x="28" y="116" class="b inv">再给重点线程的动作、草案和停止条件</text><text x="28" y="156" class="b inv">最后把高价值问题收成下一条内容线索</text></g>
+  </g>
+  <g transform="translate(70 445)">
+    <rect width="1460" height="245" rx="28" fill="#FFFCF7" stroke="#1E2422" stroke-width="3"/>
+    <rect width="300" height="245" rx="28" fill="#E6603D"/><text x="34" y="52" class="m" fill="#1E2422">USE CASE 02</text><text x="34" y="102" class="p">一条分歧开始扩散</text><text x="34" y="139" class="small" fill="#1E2422">X · Bilibili</text><path d="M34 207 H234" stroke="#1E2422" stroke-width="10" stroke-linecap="round"/>
+    <g transform="translate(340 34)"><circle cx="22" cy="22" r="22" fill="#4164A8"/><rect x="60" width="470" height="78" rx="18" fill="#F4F0E8"/><text x="84" y="31" class="small">“你把个例说成规律了。”</text><text x="84" y="57" class="small">下方已经有人站队、补刀、争最后一句。</text><path d="M22 48 V122" stroke="#1E2422" stroke-width="3"/><circle cx="22" cy="142" r="16" fill="#C99A2E"/></g>
+    <g transform="translate(910 34)"><text x="0" y="20" class="m" fill="#E6603D">SKILL OUTPUT</text><rect y="40" width="500" height="150" rx="18" fill="#1E2422"/><text x="28" y="78" class="b inv">识别：纠错、反例，还是只想诱战</text><text x="28" y="116" class="b inv">需要时一次完整澄清，不逐条追着解释</text><text x="28" y="156" class="b inv">新事实停止出现时，明确收口</text></g>
+  </g>
+  <g transform="translate(70 710)">
+    <rect width="1460" height="245" rx="28" fill="#FFFCF7" stroke="#1E2422" stroke-width="3"/>
+    <rect width="300" height="245" rx="28" fill="#7C9B72"/><text x="34" y="52" class="m" fill="#1E2422">USE CASE 03</text><text x="34" y="102" class="p">读者讲了具体故事</text><text x="34" y="139" class="small" fill="#1E2422">微信公众号 · 小红书</text><path d="M34 207 H234" stroke="#4164A8" stroke-width="10" stroke-linecap="round"/>
+    <g transform="translate(340 34)"><circle cx="22" cy="22" r="22" fill="#7C9B72"/><rect x="60" width="470" height="96" rx="18" fill="#F4F0E8"/><text x="84" y="31" class="small">“我也经历过，但真正卡住我的不是能力，</text><text x="84" y="61" class="small">而是每次都在换方向，没有留下作品。”</text><path d="M22 48 V138" stroke="#1E2422" stroke-width="3"/><circle cx="22" cy="158" r="16" fill="#4164A8"/></g>
+    <g transform="translate(910 34)"><text x="0" y="20" class="m" fill="#E6603D">SKILL OUTPUT</text><rect y="40" width="500" height="150" rx="18" fill="#1E2422"/><text x="28" y="78" class="b inv">承接具体处境，不把别人的痛苦当素材</text><text x="28" y="116" class="b inv">只追问一个能增加理解的条件</text><text x="28" y="156" class="b inv">得到允许后，再沉淀为选题或 FAQ</text></g>
+  </g>
+  <text x="70" y="1008" class="small">以上均为原创演示评论，用于展示判断顺序；不是平台官方界面，也不是已发送回复。</text>
+</svg>

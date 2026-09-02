@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#F4F0E8"/><style>.h{font:700 42px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#1E2422}.k{font:700 17px ui-monospace,monospace;letter-spacing:2px}.t{font:700 27px 'Noto Sans SC','Microsoft YaHei',sans-serif}.b{font:400 20px 'Noto Sans SC','Microsoft YaHei',sans-serif}.s{font:400 17px 'Noto Sans SC','Microsoft YaHei',sans-serif;fill:#59615E}.n{font:700 18px ui-monospace,monospace}.inv{fill:#C9CECA}</style>
+  <text x="70" y="72" class="k" fill="#E6603D">SAME COMMENT / DIFFERENT ORDER</text><text x="70" y="126" class="h">同一条评论，两种处理顺序，结果完全不同</text>
+  <rect x="320" y="166" width="960" height="92" rx="22" fill="#1E2422"/><circle cx="370" cy="212" r="23" fill="#E6603D"/><text x="414" y="205" class="b" fill="#F4F0E8">评论：你说得轻巧。我换了三份工作，照样没找到出路。</text><text x="414" y="235" class="s inv">这句话可能同时是反例、个人故事和情绪，不只是“负面评论”。</text>
+  <g transform="translate(70 300)"><rect width="700" height="510" rx="26" fill="#FFF9F5" stroke="#E6603D" stroke-width="4"/><rect width="700" height="66" rx="26" fill="#E6603D"/><text x="34" y="43" class="t">A｜回复优先：先找一句好听的话</text>
+    <g transform="translate(36 100)"><circle cx="24" cy="24" r="24" fill="#F3C1B2"/><text x="72" y="18" class="n" fill="#E6603D">01 生成安慰</text><text x="72" y="48" class="b">“别灰心，坚持下去总会找到方向。”</text><path d="M24 56 V118" stroke="#E6603D" stroke-width="4"/></g>
+    <g transform="translate(36 230)"><circle cx="24" cy="24" r="24" fill="#F3C1B2"/><text x="72" y="18" class="n" fill="#E6603D">02 对方感到没被听见</text><text x="72" y="48" class="b">“你根本不知道我经历了什么。”</text><path d="M24 56 V118" stroke="#E6603D" stroke-width="4"/></g>
+    <g transform="translate(36 360)"><circle cx="24" cy="24" r="24" fill="#E6603D"/><text x="72" y="18" class="n" fill="#E6603D">03 继续解释，线程升温</text><text x="72" y="48" class="b">每回一句，都可能把争最后一句变成主舞台。</text></g>
+  </g>
+  <g transform="translate(830 300)"><rect width="700" height="510" rx="26" fill="#F7FAF5" stroke="#7C9B72" stroke-width="4"/><rect width="700" height="66" rx="26" fill="#7C9B72"/><text x="34" y="43" class="t">B｜判断优先：先决定要不要继续</text>
+    <g transform="translate(36 100)"><circle cx="24" cy="24" r="24" fill="#4164A8"/><text x="72" y="18" class="n" fill="#4164A8">01 识别：dissent + story</text><text x="72" y="48" class="b">这是有效反例，不先当作挑衅。</text><path d="M24 56 V118" stroke="#4164A8" stroke-width="4"/></g>
+    <g transform="translate(36 230)"><circle cx="24" cy="24" r="24" fill="#7C9B72"/><text x="72" y="18" class="n" fill="#5C7C53">02 目标：clarify</text><text x="72" y="48" class="b">补清“小作品降低试错成本，不保证转型成功”。</text><path d="M24 56 V118" stroke="#7C9B72" stroke-width="4"/></g>
+    <g transform="translate(36 360)"><circle cx="24" cy="24" r="24" fill="#1E2422"/><text x="72" y="18" class="n">03 最小动作 + 停止条件</text><text x="72" y="48" class="b">承认边界；只问一个新条件；没有新增事实就停。</text></g>
+  </g>
+  <text x="70" y="858" class="s">它不是保证对方满意，而是让每一次公开动作都有理由、有边界、能停下来。</text>
+</svg>
