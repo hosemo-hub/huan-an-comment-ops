@@ -240,9 +240,9 @@ Skill 说明、references、assets 与 evals 采用 [CC BY-NC 4.0](./LICENSE)：
 
 最有价值的反馈是：它在哪种评论里判断错了、你为什么没有采用建议、哪条停止条件来得太早或太晚。请在 [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues) 提交已公开或充分脱敏的案例。
 
-想直接带一条真实评论来试，扫码加入「评论运营 Skill」内测群：
+扫码加入「评论运营 Skill」内测群：
 
-![焕安聊出路评论罗盘内测群二维码海报](./docs/images/comment-compass-wechat-group-v2.png)
+![焕安聊出路评论罗盘内测群二维码海报](./docs/images/comment-compass-wechat-group-v3.png)
 
 群码失效了，就到 [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues) 留言；我会不定期更新。
 

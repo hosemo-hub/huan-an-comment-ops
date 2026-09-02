@@ -177,7 +177,7 @@ The most useful feedback is a wrong classification, a suggestion you rejected, o
 
 Chinese beta group:
 
-![Comment Compass Chinese beta group QR poster](./docs/images/comment-compass-wechat-group-v2.png)
+![Comment Compass Chinese beta group QR poster](./docs/images/comment-compass-wechat-group-v3.png)
 
 If the WeChat group code has expired, leave a note in [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues). I update it from time to time.
 
