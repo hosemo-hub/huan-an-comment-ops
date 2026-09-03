@@ -244,9 +244,9 @@ Skill 说明、references、assets 与 evals 采用 [CC BY-NC 4.0](./LICENSE)：
 
 扫码加入「评论运营 Skill」内测群：
 
-![焕安聊出路评论罗盘内测群二维码海报](./docs/images/comment-compass-wechat-group-v4-ochre.png)
-
 群码有效期至 **2026-09-09**。失效后请到 [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues) 留言；我会不定期更新。
+
+![焕安聊出路评论罗盘内测群二维码海报](./docs/images/comment-compass-wechat-group-v5-ochre-status.png)
 
 ---
 

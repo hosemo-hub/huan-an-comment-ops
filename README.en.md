@@ -179,9 +179,9 @@ The most useful feedback is a wrong classification, a suggestion you rejected, o
 
 Chinese beta group:
 
-![Comment Compass Chinese beta group QR poster](./docs/images/comment-compass-wechat-group-v4-ochre.png)
-
 The WeChat group code is valid through **2026-09-09**. After it expires, leave a note in [GitHub Issues](https://github.com/hosemo-hub/huan-an-comment-ops/issues). I update it from time to time.
+
+![Comment Compass Chinese beta group QR poster](./docs/images/comment-compass-wechat-group-v5-ochre-status.png)
 
 ---
 
